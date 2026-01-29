@@ -17,5 +17,13 @@ console.log(array.length);
 
 
 // insert
-array.push(22);
+array.push(22); // insert value at last
+array.unshift(5); // insert value at first
+console.log(array);
+
+// remove
+array.pop();
+console.log(array);
+
+array.shift(); //remove value at first;
 console.log(array);
