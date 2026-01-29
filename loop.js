@@ -7,12 +7,20 @@
 //     console.log(i, "I Love You");
 // }
 
+// while loop
+// let i = 0;
+// while(i<=50){
+//     console.log(i, "My Name is Khan");
+//     i++;
 
+// }
+
+
+// do while loop (optional)
 let i = 0;
-while(i<=50){
-    console.log(i, "My Name is Khan");
+do{
+    console.log(i,"My Name is Khan");
     i++;
-
-}
+}while(i<=50);
 
 
