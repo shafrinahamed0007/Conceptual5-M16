@@ -31,4 +31,12 @@ for(let i = 1; i<=50; i++){
     console.log(i);
 }
 
+// continue
+for(let i = 1; i<=50; i++){
+    if(i==5){
+        continue;
+    }
+    console.log(i);
+}
+
 
