@@ -17,10 +17,18 @@
 
 
 // do while loop (optional)
-let i = 0;
-do{
-    console.log(i,"My Name is Khan");
-    i++;
-}while(i<=50);
+// let i = 0;
+// do{
+//     console.log(i,"My Name is Khan");
+//     i++;
+// }while(i<=50);
+
+// break
+for(let i = 1; i<=50; i++){
+    if(i == 10){
+        break;
+    }
+    console.log(i);
+}
 
 
