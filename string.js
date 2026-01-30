@@ -26,3 +26,38 @@ console.log(str3.trim());
 let bd = "I Love Bangladesh";
 console.log(bd.slice(2,6));
 
+// includes: to check specific portion
+console.log(bd.includes("Love Bangladesh"));
+
+// concat
+
+let newStr = str.concat(str2);
+console.log(newStr);
+
+// replace: to replace specific portion
+console.log(bd.replace("I", "We"));
+console.log(bd.replace("Love", "Love very much"));
+
+
+
+// split --> It's very useful for reverse a string
+let str1 = "We love programming"
+let strArr = str1.split(" ");
+let reverseArr = strArr.reverse();
+let reverseStr = reverseArr.join(" ");
+
+
+console.log(strArr);
+console.log(reverseArr);
+console.log(reverseStr);
+
+
+// split -> Other example
+let name1 = "Shafrin Ahamed";
+let nameArray = name1.split(" ");
+let reverseNameArray = nameArray.reverse();
+let arrayNameStr = reverseNameArray.join(" ");
+console.log(arrayNameStr);
+
+
+
