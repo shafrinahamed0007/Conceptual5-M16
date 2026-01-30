@@ -7,7 +7,12 @@ let bike = {
     pillion:2,
     milage: 35,
     isMeterDigital:true,
-    advantage:["less milage","High Speed", "Low Configuration"]
+    advantage:["less milage","High Speed", "Low Configuration"],
+    battery:{
+        color: "black",
+        durability: "StorageManager",
+        warranty: "2 years"
+    }
 };
 
 console.log(bike);
@@ -20,5 +25,9 @@ console.log(bike);
 
 console.log(bike.color); // dot notation
 console.log(bike.advantage);
+console.log(bike.battery);
+
+
 
 console.log(bike["milage"]);
+console.log(bike["isMeterDigital"]);
