@@ -67,9 +67,10 @@ let string = "We love to travel and watch movie";
 // how many times the t letter
 
 let tCount = 0;
+
 for (let i = 0; i < string.length; i++) {
   let letter = string[i];
-  if (letter.toLowerCase() == "t") {
+  if (letter == "t") {
     tCount++;
   }
 }
