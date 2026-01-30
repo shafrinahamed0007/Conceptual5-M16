@@ -21,10 +21,9 @@ console.log(str.toUpperCase() === str2.toUpperCase());
 let str3 = " Programming Hero";
 console.log(str3.trim());
 
-
 // slice
 let bd = "I Love Bangladesh";
-console.log(bd.slice(2,6));
+console.log(bd.slice(2, 6));
 
 // includes: to check specific portion
 console.log(bd.includes("Love Bangladesh"));
@@ -38,19 +37,15 @@ console.log(newStr);
 console.log(bd.replace("I", "We"));
 console.log(bd.replace("Love", "Love very much"));
 
-
-
 // split --> It's very useful for reverse a string
-let str1 = "We love programming"
+let str1 = "We love programming";
 let strArr = str1.split(" ");
 let reverseArr = strArr.reverse();
 let reverseStr = reverseArr.join(" ");
 
-
 console.log(strArr);
 console.log(reverseArr);
 console.log(reverseStr);
-
 
 // split -> Other example
 let name1 = "Shafrin Ahamed";
@@ -61,9 +56,22 @@ console.log(arrayNameStr);
 
 // split -> shorthand
 
-let location = "Dhaka, Bangladesh"
+let location = "Dhaka, Bangladesh";
 let reverseLocation = location.split(" ").reverse().join(",");
 console.log(reverseLocation);
 
+// count a specific letter
 
+let string = "We love to travel and watch movie";
 
+// how many times the t letter
+
+let tCount = 0;
+for (let i = 0; i < string.length; i++) {
+  let letter = string[i];
+  if (letter.toLowerCase() == "t") {
+    tCount++;
+  }
+}
+
+console.log(tCount);
