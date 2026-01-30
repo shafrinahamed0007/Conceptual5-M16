@@ -59,5 +59,11 @@ let reverseNameArray = nameArray.reverse();
 let arrayNameStr = reverseNameArray.join(" ");
 console.log(arrayNameStr);
 
+// split -> shorthand
+
+let location = "Dhaka, Bangladesh"
+let reverseLocation = location.split(" ").reverse().join(",");
+console.log(reverseLocation);
+
 
 
